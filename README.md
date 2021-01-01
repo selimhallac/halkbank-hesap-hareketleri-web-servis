@@ -37,7 +37,7 @@ HesapAcilisTarihi string - Hesabın açıldığı tarih bilgisidir. (GG/AA/YYYY)
 SonHareketTarihi string - Hesabın işlem gördüğü son tarih bilgisidir <br>
 Bakiye string - Sorgulanan tarih aralığındaki son bakiye bilgisidir <br>
 HesapAdi string - Hesap sahibi tarafından verilen takma ad bilgisidir <br>
-HesapCinsi string - Hesaın döviz cinsi bilgisidir <br> 
+HesapCinsi string - Hesaın döviz cinsi bilgisidir <br>
 BlokeMeblag string - Hesaba ait bloke edilmiş, kullanılmayan tutardır <br>
 KullanilabilirBakiye string - Hesabın sorgulandığı andaki bakiye bilgisidir<br>
 KrediLimit string - Hesabın sorgulandığı andaki açık hesap limitidir.<br>
@@ -65,8 +65,10 @@ KarsiHesapIBAN string - İşlemi yapan tarafın IBAN bilgisi <br>
 KarsiKimlikNo string - İşlemi yapan tarafın kimlik bilgisidir. (TC No, Vergi No, Yabancı Kimlik No) <br>
 IslemYapanKimlikNo string - İşlemi gerçekleştiren kişinin kimlik bilgisidir <br>
 İslemYapanAdSoyad string - İşlemi gerçekleştiren kişinin ad soyad bilgisidir <br>
-AtmNo string - İşlemin gerçekleştiği ATM bilgisidir 
+AtmNo string - İşlemin gerçekleştiği ATM bilgisidir
 
 <br><br>
-Burda dikkat etmeniz gereken Üst taraftaki bakiye, hesabın güncel bakiyesi değildir. İki tarih arasındaki hareketlerin bakiyesidir. Hesabın güncel bakiyesi "KullanilabilirBakiye" parametresidir, burası sizi yanıltmasın, nerden biliyorum :)) 
+Burda dikkat etmeniz gereken Üst taraftaki bakiye, hesabın güncel bakiyesi değildir. İki tarih arasındaki hareketlerin bakiyesidir. Hesabın güncel bakiyesi "KullanilabilirBakiye" parametresidir, burası sizi yanıltmasın, nerden biliyorum :))
 
+<br>
+Bunlardan haric BagliHesapEkstreRequest, DekontSorgulama diye iki adet sorgulama var onlarıda gelecek günlerde paylaşıyor olacağım.
