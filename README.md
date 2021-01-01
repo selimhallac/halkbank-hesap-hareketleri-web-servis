@@ -12,13 +12,15 @@ E Posta olarak kullanıcı adını, sms olarak parolayı gönderiyorlar.
 Header parametlerinden WSS-Password Type, "PasswordText" türünde olmalıdır.<br>
 
 // Bu alana size gönderdikleri kullanıcı adı ve parolayı girin.<br>
+```php
 $username = "";<br>
 $password = "";<br>
-
+```
 // Bu alanada hesap ekstresi için sorgulamak istediğiniz tarihleri girin. <br>
+```php
 $start_date = '2020-12-12'; <br>
 $end_date = '2020-12-15'; <br>
-
+```
 # İstek Parametreleri
 BaslangicTarihi - DateTime - Sorgulama yapılacak tarih aralığına ait
 başlangıç tarihi <br>
