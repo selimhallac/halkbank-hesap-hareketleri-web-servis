@@ -31,7 +31,7 @@ class WsseAuthHeader extends SoapHeader
         $full = $root->xpath('/root/wsse:Security');
         $auth = $full[0]->asXML();
 
-        parent::SoapHeader($this->wssNs, 'Security', new SoapVar($auth, XSD_ANYXML), true);
+        parent::__construct($this->wssNs, 'Security', new SoapVar($auth, XSD_ANYXML), true);
 
     }
 };
